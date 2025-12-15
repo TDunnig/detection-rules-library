@@ -29,7 +29,7 @@ detection:
     filter:
         Image|endswith:
             - 'debugger.exe'
-            - 'system32\svchost.exe'
+            - 'system32\\svchost.exe'
     condition: selection and not filter
 ```
 
